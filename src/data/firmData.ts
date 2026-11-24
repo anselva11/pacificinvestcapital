@@ -1,3 +1,6 @@
+import homeImg from "../Assets/home.jpeg";
+import researchImg from "../Assets/research.jpeg";
+
 export interface NavDropdownItem {
   name: string;
   path: string;
@@ -251,8 +254,7 @@ export const BUSINESS_DIVISIONS: BusinessDivision[] = [
       "Industry Research",
       "Market Insights",
     ],
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80",
+    image: researchImg,
   },
   {
     id: "investment-advisory",
@@ -274,8 +276,7 @@ export const BUSINESS_DIVISIONS: BusinessDivision[] = [
       "Portfolio Research",
       "Corporate Investment Research",
     ],
-    image:
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1000&q=80",
+    image: homeImg,
   },
   {
     id: "portfolio-management",
