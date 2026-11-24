@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, ChevronRight, Shield } from "lucide-react";
 import { FIRM_INFO } from "../data/firmData";
 import { fadeIn, fadeInUp } from "./Motion";
+import pacificImg from "../Assets/pacific.png";
 
 export default function Hero() {
   return (
@@ -90,9 +91,9 @@ export default function Hero() {
             >
               <div className="relative h-[380px] sm:h-[460px] lg:h-[500px] w-full">
                 <img
-                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=85"
-                  alt="Pacific Investment Capital Architectural Presence"
-                  className="w-full h-full object-cover"
+                  src={pacificImg}
+                  alt="Pacific Investment Capital Building"
+                  className="w-full h-full object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent" />
 
